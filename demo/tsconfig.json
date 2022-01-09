@@ -22,7 +22,7 @@
       "dom"
     ],
     "paths": {
-      "remote-file-api-connector": [
+      "@jsd/remote-file-api-connector": [
         "../src"
       ]
     }

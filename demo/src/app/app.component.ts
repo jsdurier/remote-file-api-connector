@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RemoteFileApiConnectorService } from 'remote-file-api-connector';
+import { RemoteFileApiConnectorService } from '@jsd/remote-file-api-connector';
 
 @Component({
 	selector: 'app-root',
