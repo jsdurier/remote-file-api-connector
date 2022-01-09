@@ -5,14 +5,14 @@ import { RemoteFileApiConnectorModule } from 'remote-file-api-connector';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
+	declarations: [
+		AppComponent
+	],
+	imports: [
+		BrowserModule,
 		RemoteFileApiConnectorModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	],
+	bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

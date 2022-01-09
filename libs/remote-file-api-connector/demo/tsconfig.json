@@ -1,0 +1,11 @@
+{
+		"extends": "../../../tsconfig.json",
+		"compileOnSave": false,
+		"compilerOptions": {
+			"outDir": "./dist"
+		},
+		"angularCompilerOptions": {
+			"fullTemplateTypeCheck": true,
+			"strictInjectionParameters": true
+		}
+	}
