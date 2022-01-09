@@ -10,6 +10,9 @@ import { CONFIG } from './config';
 const ROUTE = 'write-file';
 const SERVER_NAME = 'remoteFileApi';
 const SERVER_NOT_RUNNING_ERROR = `Server ${SERVER_NAME} not running on port ${CONFIG.port}`;
+const LOCALHOST = 'localhost';
+const HTTP = 'http';
+const URL = `${HTTP}://${LOCALHOST}:${CONFIG.port}/${ROUTE}`;
 
 @Injectable()
 export class RemoteFileApiConnectorService {
@@ -20,14 +23,13 @@ export class RemoteFileApiConnectorService {
 		filePath: string,
 		content: string
 	): Promise<void> {
-		const url = `http://localhost:${CONFIG.port}/${ROUTE}`;
 		const body = {
 			filePath,
 			content
 		};
 		try {
 			await firstValueFrom(this._http.post(
-				url,
+				URL,
 				body
 			));
 		} catch (err) {
