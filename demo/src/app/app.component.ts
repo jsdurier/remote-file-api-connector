@@ -11,7 +11,7 @@ export class AppComponent {
 	}
 
 	writeFile(): void {
-		const filePath = '/Users/j-sdurier/Documents/development/jsdurier/remote-file-api/toto2.txt';
+		const filePath = ''; // Path of the file to define
 		const content = 'hello world';
 		this._remoteFileApiConnectorService.writeFile(
 			filePath,
