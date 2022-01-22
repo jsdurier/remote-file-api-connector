@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RemoteFileApiConnectorModule } from '@jsd/remote-file-api-connector';
+import { RemoteFileApiConnectorModule } from '@jsdurier/remote-file-api-connector';
 
 import { AppComponent } from './app.component';
 

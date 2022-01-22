@@ -15,6 +15,11 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "remote-file-api-connector": [
+        "dist"
+      ]
+    },
     "target": "es2017",
     "module": "es2020",
     "lib": [

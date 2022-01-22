@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@jsd/remote-file-api-connector": [
+      "@jsdurier/remote-file-api-connector": [
         "../lib/src"
       ]
     }
